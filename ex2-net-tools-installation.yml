@@ -3,6 +3,6 @@
  hosts: client1
  tasks:
   -name: Install net-tools
-   yum: 
+   yum : 
    name: net-tools
    state: present
