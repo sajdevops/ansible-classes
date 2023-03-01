@@ -2,7 +2,7 @@
  name: Play on sample execution
  hosts: client1
  tasks: 
-  -name: code to install git
+ - name: code to install git
    yum: 
     name: git
     state: present
