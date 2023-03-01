@@ -2,8 +2,8 @@
  name: Play on Install application use case of yum module
  hosts: client1
  tasks:
-  -name: Install net-tools
-   yum: 
+  - name: Install net tools
+    yum: 
      name: net-tools
      state: present
 
