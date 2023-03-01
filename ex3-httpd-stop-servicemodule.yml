@@ -1,8 +1,8 @@
 -
-  name: pb on use case of service module
-  hosts: all
-  tasks: 
-   - name: code to stop service httpd
-       service:
-        -name: stop httpd service 
-        state: stopped
+ name: pb on use case of service module
+ hosts: all
+ tasks: 
+  - name: code to stop service httpd
+   service:
+     -name: stop httpd service 
+      state: stopped
