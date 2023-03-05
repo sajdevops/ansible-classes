@@ -2,8 +2,7 @@
  name: pb on use case of service module
  hosts: all
  tasks: 
-  - name: code to stop services of httpd
+ - name: code to stop services of httpd
     service: 
      - name: httpd
-       state: stopped
- 
+      state: stopped
