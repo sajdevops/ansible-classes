@@ -1,0 +1,10 @@
+-
+ name: pb on remove net-tools and start httpd application
+ hosts: all
+ tasks:
+  - name: code to remove net-tools
+    command: 
+     cmd: yum remove net-tools -y
+  - name: code to start httpd application
+    command: 
+     cmd: service httpd start
