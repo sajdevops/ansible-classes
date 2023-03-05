@@ -1,0 +1,7 @@
+-
+ name: pb on command module
+ hosts: all
+ tasks: 
+  - name: code to create directory USA under /opt
+    command:  
+     cmd: mkdir /opt/USA
