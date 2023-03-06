@@ -13,7 +13,7 @@
   - name: code to write content in file russia.txt
     lineinfile: 
      path: /opt/india/russia.txt
-     line: 'HELLO WORLD'
+     line: '==HELLO WORLD=='
   - name: code to give excute permission
     file:
      path: /opt/india/russia.txt
