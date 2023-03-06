@@ -1,0 +1,20 @@
+-
+ name: pb on lineinfile module
+ hosts: all
+ tasks: 
+  - name: create a directory india at /opt
+    file: 
+     path: /opt/india
+     state: directory
+  - name: create a file russia.txt at /opt/india
+    file: 
+     path: /opt/india/russia.txt
+     state: touch
+  - name: code to write content in file russia.txt
+    lineinfile: 
+     path: /opt/india/russia.txt
+     line: 'HELLO WORLD'
+  - name: code to give excute permission
+    file:
+     path: /opt/india/russia.txt
+     mode: u+x
