@@ -13,6 +13,6 @@
      state: touch
   - name: code to write the message into file
     lineinfile: 
-    path: /opt/variable.txt
-    state: present
-    line: 'The value of a is {{a}} and b is {{b}} and c is {{c}} and d is {{d}}'
+     path: /opt/variable.txt
+     state: present
+     line: 'The value of a is {{a}} and b is {{b}} and c is {{c}} and d is {{d}}'
