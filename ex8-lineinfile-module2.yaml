@@ -5,5 +5,5 @@
   - name: code to replace the text
     lineinfile: 
      path: /opt/india/russia.txt
-     regexp: 'HELLO WORLD'
-     line: 'India is Great'
+     regexp: '^HELLO WORLD'
+     line: ''
