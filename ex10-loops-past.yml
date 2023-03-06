@@ -6,8 +6,8 @@
     yum: 
      name: "{{item}}"
      state: present
-     with_items:
-      - git
-      - docker
-      - net-tools
-      - finger
+    with_items:
+     - git
+     - docker
+     - net-tools
+     - finger
