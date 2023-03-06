@@ -8,6 +8,6 @@
      state: absent
     loop:
      - git
-     - Docker
+     - Docker-ce
      - net-tools
      - finger
