@@ -1,0 +1,8 @@
+-
+ name: pb on use case of loops in future version
+ hosts: all
+ tasks:
+  - name: Ansible Loops example
+    yum: 
+     name: ['git','finger','docker','httpd','net-tools']
+     state: present
