@@ -1,4 +1,4 @@
----
+-
  name: Play on sample execution
  hosts: client1
  tasks:
